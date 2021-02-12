@@ -1,0 +1,46 @@
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.body > section {
+	width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+
+.main > section {
+	width: auto;
+}
+
+.text {
+	width:auto;
+	flex-grow: 2;
+	
+}
+
+.pic {
+	width:auto;
+	flex-grow: 1;
+}
+	
+img {
+	max-width: 20rem;
+	display: block;
+}
+
+.pagename {
+	font-size: 1.5rem;
+	text-align: center;
+}
+.text {
+	font-size: 1.2rem;
+	text-align: justify;
+	padding: 0 3% 0 3%;
+}

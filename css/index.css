@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+
 }
 
 .body > section {
@@ -16,14 +17,19 @@ img.banner{
 
 table.post{
 	margin-top: 1%;
-	border-style: solid;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
+	font-size: 2rem;
+	color: #ffffff;
 	text-align: center;
-	padding: 0.5%;
+	padding: 1%;
+	background:#e60073;
 	border-radius: 5px;
+}
+
+.table {
+	margin: 0 0 1% 0;
 }
 
 p.post{
@@ -32,5 +38,52 @@ p.post{
 	text-align: justify;
 	margin-left:10%;
 	margin-right: 10%;	
-	font-size: 20px;
+	font-size: 5rem;
+}
+.main{
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 0.005rem solid #7a1f5c;
+  border-radius: 0.5rem;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  background: #f5d6eb;
+}
+.main > section {
+	width: auto;
+}
+.blogtitle {
+	font-size: 1.5rem;
+	padding: 0 0 0 3%;
+	text-decoration: underline;
+	font-style: italic;
+	text-align: center;
+}
+
+.blogbody {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.blogbodytext {
+	font-size: 1.2rem;
+	padding: 0 3% 0 3%;
+	text-align: justify;
+	flex-grow: 3;
+}
+
+section.blogbodyimage {
+
+	width: 100%
+}
+
+img.blogbodyimage {
+	padding-top: 2%;
+	padding-left: 5%;
+	margin: auto;
+	max-width: 100%;
+	display: block;
 }

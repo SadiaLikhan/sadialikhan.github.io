@@ -66,6 +66,12 @@ span.archive{
 	border-color: #ffffff;
 }
 
+span.home{
+	border-right: solid;
+	padding-right: 0.5%;
+	border-color: #ffffff;
+}
+
 
 .header{
   width: 100%;

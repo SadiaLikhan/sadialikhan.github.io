@@ -38,7 +38,8 @@
 }
 	
 img.about {
-	max-width: 25rem;
+	margin: auto;
+	max-width: 100%;
 	display: block;
 }
 

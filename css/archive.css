@@ -34,6 +34,7 @@
 	text-align: center;
 }
 
+
 .blogbody {
   max-width: 100%;
   display: flex;
@@ -59,4 +60,18 @@ img.blogbodyimage {
 	margin: auto;
 	max-width: 100%;
 	display: block;
+}
+
+
+@media screen and (max-width:800px){
+	.blogbody {
+		max-width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.blogbody > section{
+		
+		width: 100%;
+	}
 }

@@ -8,12 +8,13 @@
 .body > section {
 	width: 100%;
 }
-img.banner{
-	padding-top: 1%;
-	margin: auto;
-	max-width: 80%;
-	display: block;
-}
+
+	.banner{
+		padding-top: 1%;
+		margin: auto;
+		max-width: 80%;
+		display: block;
+	}
 
 table.post{
 	margin-top: 1%;
@@ -40,6 +41,7 @@ p.post{
 	margin-right: 10%;	
 	font-size: 5rem;
 }
+
 .main{
   max-width: 90%;
   display: flex;
@@ -50,6 +52,7 @@ p.post{
   margin-bottom: 2%;
   background: #f5d6eb;
 }
+
 .main > section {
 	width: auto;
 }
@@ -86,4 +89,17 @@ img.blogbodyimage {
 	margin: auto;
 	max-width: 100%;
 	display: block;
+}
+
+@media screen and (max-width:800px){
+	.blogbody {
+		max-width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.blogbody > section{
+		
+		width: 100%;
+	}
 }
